@@ -1,0 +1,85 @@
+<div class="students">
+
+    <div *ngIf="!isAddNew" class="students__list">
+        
+        <div class="header">
+            <div class="title">
+                Students Main Details
+            </div>
+            <div class="options">
+                <button class="add__button">
+                    <span class="material-symbols-rounded">add</span>
+                    Add New
+                </button>
+            </div>
+        </div>
+
+        <div class="list">
+            Table
+        </div>
+        
+    </div>
+
+    <div *ngIf="isAddNew" class="students__add__new">
+
+        <div class="form__row1">
+            <div class="form__data">
+                <form>
+                    <table>
+                        <tr>
+                            <td><span>First Name: </span></td>
+                            <td><input type="text" class="form__input"/></td>
+                        </tr>
+                        <tr>
+                            <td><span>Last Name: </span></td>
+                            <td><input type="text"  class="form__input" /></td>
+                        </tr>
+                        <tr>
+                            <td><span>DOB: </span></td>
+                            <td><input type="date" class="form__input" /></td>
+                        </tr>
+                        <tr>
+                            <td><span>Gender: </span></td>
+                            <td>
+                                <select class="form__input">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Prefer not to say</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>Address: </span></td>
+                            <td><textarea class="form__input"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><span>District: </span></td>
+                            <td><input type="text" class="form__input" /></td>
+                        </tr>
+                        <tr>
+                            <td><span>Contact No: </span></td>
+                            <td><input type="text"  class="form__input" /></td>
+                        </tr>
+                        <tr>
+                            <td><span>Grade: </span></td>
+                            <td><input type="text"  class="form__input" /></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+            <div class="form__img">
+                <img src="https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg">
+                <button>Add Picture</button>
+            </div>
+
+        </div>
+        <div class="form__row2">
+            <button>Save</button>
+            <button>Cancel</button>
+            <button>Close</button>
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,21 @@
+<div class="header">
+
+    <div class="header__menu__logo">
+        
+        <span *ngIf="!mainService.isMinimised" class="material-symbols-rounded color__white icon__big" (click)="mainService.toggleMinimised()">menu</span>
+        
+        <span *ngIf="mainService.isMinimised" class="material-symbols-rounded color__white icon__big" (click)="mainService.toggleMinimised()">menu_open</span>
+        
+        <img src="../../assets/logo.png" alt="Medical Logo" class="header__logo"/>
+    </div>
+
+    <div class="header__options">
+        <span class="material-symbols-rounded color__white icon__big">search</span>
+
+        <span class="material-symbols-rounded color__white icon__big">notifications</span>
+    
+        <span class="material-symbols-rounded color__white icon__big">account_circle</span>
+    </div>
+
+
+</div>

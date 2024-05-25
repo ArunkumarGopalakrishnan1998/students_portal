@@ -1,0 +1,22 @@
+.home {
+    background-color: var(--secondary);
+    display: flex;
+    padding: 4vh;
+    justify-content: center;
+}
+
+.left {
+    width: 30%;
+}
+
+.left__mini {
+    width: 90px;
+}
+
+.right {
+    width: 70%;
+}
+
+.right__mini {
+    width: 95%;
+}

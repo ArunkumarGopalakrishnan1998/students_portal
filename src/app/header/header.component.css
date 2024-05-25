@@ -1,0 +1,27 @@
+.header {
+    height: 10vh;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header__logo {
+    width: 80px;
+}
+
+.header__menu__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__menu__logo > span {
+    padding-right: 28px;
+}
+
+.header__options > span {
+    padding-left: 28px;
+}

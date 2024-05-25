@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: large;
+    font-weight: bold;
+}
+
+.add__button {
+    background-color: var(--primary);
+    padding: 8px;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.students__add__new {
+    display: flex;
+    flex-direction: column;
+}
+.form__row1 {
+    display: flex;
+    width: 100%;
+}
+.form__row2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.form__row2 > button {
+    padding: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.form__data {
+    width: 70%;
+}
+.form__data > form > table {
+    width: 100%;
+}
+.form__data > form > table > tr > td:nth-child(1) {
+    text-align: right;
+    padding-right: 8px;
+}
+.form__data > form > table > tr > td > span {
+    font-size: large;
+    width: 30%;
+}
+.form__input {
+    padding: 12px;
+    width: 70%;
+    /* text-align: center; */
+}
+.form__img {
+   display: flex;
+   flex-direction: column; 
+   width: 30%;
+}
